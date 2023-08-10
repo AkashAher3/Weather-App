@@ -52,7 +52,7 @@ function fetchWeatherData(city) {
             weatherIcon.src="images/mist.png";
           }
           // change background image with city name 
-          // document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + city + "')"
+          document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + city + "')"
 
         
           // Display weather information on the page
