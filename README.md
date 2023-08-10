@@ -14,7 +14,7 @@ Welcome to the Weather App repository! This project is a simple web application 
 
 ## Introduction
 
-The Weather App is designed to provide users with real-time weather information for a specified location. It consists of two main pages: the input page and the weather display page. On the input page, users can enter a location (city, state, country, etc.), and upon submission, they are redirected to the weather display page. There, they will find details such as temperature, humidity, wind speed, and more for the selected location.
+The Weather App is designed to provide users with real-time weather information for a specified location. It consists of two main pages: the input page and the weather display page. On the input page, users can enter a location (city, state, country, etc.), and upon submission, they are redirected to the weather display page. There, they will find details such as temperature, humidity, wind speed, and more for the selected location.it also display a random image in background. the image is from the name of the city ,state, country, etc.
 
 ## Features
 
@@ -55,7 +55,7 @@ To run the Weather App locally, follow these steps:
    cd weather-app
    ```
 
-3. Open the `index.html` file in your preferred web browser.
+3. Open the `index.html` file in your VS Code (strictly).
 
 ## Contributing
 
@@ -68,4 +68,4 @@ Contributions are welcome and appreciated! If you'd like to contribute to the We
 5. Create a pull request detailing your changes.
 
 
-Thank you for using the Weather App! If you have any questions or encounter any issues, feel free to [open an issue](https://github.com/your-username/weather-app/issues). We hope you find this application useful and enjoy exploring the weather forecasts.
+Thank you for using the Weather App! If you have any questions or encounter any issues, feel free to [open an issue](https://github.com/AkashAher3/Weather-App/issues). We hope you find this application useful and enjoy exploring the weather forecasts.
