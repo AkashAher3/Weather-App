@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            background-image: url('https://source.unsplash.com/1600x900/?landscape');
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+        
+    </style>
+</head>
+
+<body >
+    <div class="card card2">
+        <div class="icon"><a href="index.html"><span><i class="fa-solid fa-arrow-left"></i></a></span></div>
+        <img src="images/clouds.png" id="weather-icon">
+        <div id="weather-info-temp">
+            <h1 class="temp">${temperature} °C</h1>
+        </div>
+        <div id="weather-info-city">
+            <h2 class="city"> ${city}</h2>
+        </div>
+        <div class="details">
+            <div id="weather-info-humidity">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p>${humidity} %</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="weather-info-condition">
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p>${windSpeed} km/h</p>
+                        <p>wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

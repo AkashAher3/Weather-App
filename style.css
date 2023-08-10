@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppies',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background:#a4acaa;
+}
+
+.card{
+    width: 30%;
+    background:linear-gradient(135deg, #00feba, #5b548a) ;
+    color: #fff;
+    margin: 150px auto 0;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 35px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search input{
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #555;
+    height: 60px;
+    background: #edfdfb;
+    border-radius: 35px;
+    flex: 1;
+    margin-right: 16px;
+}
+
+#search button{
+    border: none;
+    outline: none;
+    background: #edfdfb;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#search button img{
+    width: 16px;
+}
+
+
+.card img{
+    width: 40%;
+}
+
+.icon{
+    display: flex;
+    align-items: flex-start;
+}
+.icon span{
+    font-size: 25px;
+    color: #fff;
+
+}
+
+.card2 h1{
+    font-size: 45px;
+}
+
+.card2 h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+.details{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details img{
+    width: 50px;
+}
+
+.details p{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
